@@ -1,0 +1,27 @@
+{
+  "name": "cheremhovo/smsTraffic",
+  "description": "send sms",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Ivan Kozhukhov",
+      "email": "cheremhovo1990@yandex.ru"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.11",
+    "yiisoft/yii2-httpclient": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "cheremhovo\\smsTraffic\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
